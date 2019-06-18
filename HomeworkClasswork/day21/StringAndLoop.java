@@ -1,0 +1,90 @@
+package day21;
+
+public class StringAndLoop {
+
+	public static void main(String[] args) {
+//		// TODO Auto-generated method stub;
+//
+//		//           012345
+//		String name="nurdan";
+////task 1
+//		for ( int d=0; d<name.length(); d++) {
+//			System.out.print(name.charAt(d)+" ");
+//		}
+//		//task2
+//		for ( int d=name.length()-1;d>=0; d--) {
+//			System.out.print(name.charAt(d)+" ");
+//		// tas3.3
+//			String newStr="";
+//			
+//		        
+//		      }
+		
+		
+
+		    // EVERY FOR LOOP CAN BE WRITTEN IN WHILE LOOP
+
+		    // use for loop to print your name char by char
+		    // and print reverse order char by char
+
+		    // OPTIONALLY Save it into another variable
+		          // 012345
+		    String name = "Dilnur";
+		// TASK 3.1
+//		    for (int d = 0; d < name.length(); d++) {
+//		      System.out.print(name.charAt(d) + " ");
+//		    }
+//		    System.out.println();
+//		    // TASK 3.1
+//		    for (int d = name.length() - 1; d >=0 ; d-- ) {
+//		      System.out.print(name.charAt(d) + " ");
+//		    }
+		//    
+		    // TASK 3.3
+		    String newStr = "" ; 
+		    for (int d = name.length() - 1; d >=0 ; d-- ) {
+		      //System.out.print(name.charAt(d) + " ");
+		      char eachChar = name.charAt(d); 
+		      newStr = newStr + eachChar ;
+		    }
+		    System.out.println( newStr);
+		    
+		    
+//		    int x = 0 ; 
+//		    System.out.print(name.charAt(x) + " ");
+//		    x++ ; 
+//		    System.out.print(name.charAt(x) + " ");
+//		    x++ ; 
+//		    System.out.print(name.charAt(x) + " ");
+//		    x++ ; 
+//		    System.out.print(name.charAt(x) + " ");
+//		    x++ ; 
+//		    System.out.print(name.charAt(x) + " ");
+//		    x++ ; 
+//		    System.out.print(name.charAt(x) + " ");
+//		    x++ ; 
+		    
+		    
+//		    int x = name.length()-1 ; 
+//		    System.out.print(name.charAt(x) + " ");
+//		    x-- ; 
+//		    System.out.print(name.charAt(x) + " ");
+//		    x-- ; 
+//		    System.out.print(name.charAt(x) + " ");
+//		    x-- ; 
+//		    System.out.print(name.charAt(x) + " ");
+//		    x-- ; 
+//		    System.out.print(name.charAt(x) + " ");
+//		    x-- ; 
+//		    System.out.print(name.charAt(x) + " ");
+//		    x-- ; 
+		    
+		    
+		    
+		    
+		  }
+
+		
+	}
+
+

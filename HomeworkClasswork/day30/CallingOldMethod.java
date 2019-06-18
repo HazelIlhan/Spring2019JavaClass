@@ -1,0 +1,62 @@
+package day30;
+
+import day29.Spartan;
+
+public class CallingOldMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+Spartan.releaseTheHorse(); //  bunu day 29da create  ettik bugun cagirdik geldi baska bisey yazmadik bile 
+
+
+
+//  public static void printUsersName() {
+//    
+//    Scanner scan = new Scanner(System.in) ; 
+//    System.out.println("Enter your name please");
+//    
+//    String name = scan.next(); 
+//    System.out.println("You entered : " + name);    
+//    
+//  }
+//  
+//  public static void main(String[] args) {  
+//    // calling the method
+   // printUsersName() ; 
+//    // calling the method
+//    Utility.printUsersName() ; 
+    
+    // Arrays.sort(arrObject) ; 
+    
+    
+    // We can call methods coming from 
+    // different classes 
+    // if the class is under same package no import needed
+    // if the class is under different package import is mandatory
+    Spartan.releaseTheHorse();
+  
+
+  }
+  
+
+  
+  // 
+
+  
+  
+  
+}
+
+
+// Shared via @CodeMix. To open this file type:
+
+
+
+
+
+
+
+	}
+
+}
